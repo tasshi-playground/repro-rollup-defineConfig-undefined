@@ -1,6 +1,6 @@
 # repro-rollup-defineConfig-undefined
 
-minimal reproduction of the following error.
+minimal reproduction of https://github.com/rollup/rollup/issues/4133 .
 
 ```
 [!] TypeError: rollup.defineConfig is not a function
