@@ -1,0 +1,25 @@
+{
+  "name": "repro-rollup-define-config-undefined",
+  "version": "0.0.0",
+  "description": "reproduction of the error, rollup.defineConfig is not a function",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "rollup -c",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasshi-playground/repro-rollup-defineConfig-undefined.git"
+  },
+  "author": "Masaharu TASHIRO <masatsr.kit@gmail.com> (https://tasshi.me)",
+  "license": "MIT",
+  "homepage": "https://github.com/tasshi-playground/repro-rollup-defineConfig-undefined#readme",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "rollup": "2.51.0"
+  },
+  "dependencies": {}
+}
