@@ -1,3 +1,7 @@
+# Archived
+
+The issue was closed in https://github.com/rollup/rollup/pull/4134
+
 # repro-rollup-defineConfig-undefined
 
 minimal reproduction of https://github.com/rollup/rollup/issues/4133 .
